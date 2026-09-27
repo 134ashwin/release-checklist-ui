@@ -2,8 +2,10 @@
 /* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
 {
   "extends": "./tsconfig.json",
-  "compilerOptions": {
-    "types": []
+ "compilerOptions": {
+    "types": [
+      "zone.js"
+    ]
   },
   "include": [
     "src/**/*.ts"
